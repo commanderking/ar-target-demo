@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Bowser_15" size="0.300000 0.316373" />
+    <ImageTarget name="rocket" size="0.300000 0.271397" />
+    <ImageTarget name="King_bowser" size="0.300000 0.357500" />
+  </Tracking>
+</QCARConfig>
