@@ -28,8 +28,6 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
 
     public AudioSource audioOnDetection;
     public bool pauseAudioOnTrackingLost;
-    public GameObject objectsToDrop;
-    public GameObject imageTarget;
     public Button deployFireballButton;
 
     #region UNITY_MONOBEHAVIOUR_METHODS
@@ -95,7 +93,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
 
         // Play recording if one exists
-        audioOnDetection.Play();
+        if (audioOnDetection != null)
+        {
+            audioOnDetection.Play();
+        }
 
         if (deployFireballButton != null)
         {
@@ -122,12 +123,12 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         var colliderComponents = GetComponentsInChildren<Collider>(true);
         var canvasComponents = GetComponentsInChildren<Canvas>(true);
 
-        if (pauseAudioOnTrackingLost)
+        if (pauseAudioOnTrackingLost && audioOnDetection != null)
         {
             audioOnDetection.Pause();
 
         }
-        else
+        else if (audioOnDetection != null)
         {
             audioOnDetection.Stop();
         }

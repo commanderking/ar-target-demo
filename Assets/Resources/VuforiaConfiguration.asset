@@ -16,8 +16,8 @@ MonoBehaviour:
     ufoLicenseKey: QWYxUFNMMy8vLy8vQUFBQUtLK3QwZVpLYVUzUHRXM0hYZndTN3ZneDdRLzB5UjlldEE5MWgrTnFabzlvYnd1TWFvcENGQ3p4WFJ2RlJpdjk1OVV0VFdWZGhzbmk1Vi9EbUR4eTZ4NUVwWW9JOHVGV3pWVGlseXk0b0lmNnN3bU9zaWF5WkFVM2JyNWxBejZBbTZONGdmU0RETmtpdnhNbUtNTkFtWkx3bXpTMzI2TzNrVFgrdTFOTEh3ZEhmUXdrTC8waVVVekJ2RDBiRmdRZHdVN3E2TDhnVm9XS0NLSVVrYUZUR1RqOENsOG9vS0lIcHpXcVVXTFgvZ1h3SG1ZVldaeFExUUNadzFRWjM5cnh3MmFwdlhQVjd6eDNFamp6ZC9vZ2V3U1JsR0xyTUlYdjFLbDV6WU9qWnc2V0dOdXZHZFh6NGZ5ZUk1M0RtWDdpY3VZUVZ5ZmVwRVhrOW96SGNWZXNZZFFLeDFmWHgzaVlsVGRJWnVCS1dJY1c=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 2
-    maxSimultaneousObjectTargets: 2
+    maxSimultaneousImageTargets: 3
+    maxSimultaneousObjectTargets: 3
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
     mirrorVideoBackground: 0
@@ -52,8 +52,8 @@ MonoBehaviour:
     matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
     trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
