@@ -7,6 +7,9 @@ TagManager:
   - Fire
   - Capsule
   - GroundPlaneStage
+  - SportsCar
+  - Yoop
+  - Foot
   layers:
   - Default
   - TransparentFX
